@@ -1,7 +1,7 @@
 #include<stdio.h>
 int const capacity=4;
 
-int arr[4];
+int arr[capacity];
 int top=-1;                
 int isfull(){
     if(top==capacity-1){
